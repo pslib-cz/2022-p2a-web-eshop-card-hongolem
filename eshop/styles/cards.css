@@ -1,0 +1,109 @@
+:root {
+    --green: #009901;
+    --font: "Exo 2",sans-serif;
+}
+
+.main {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: block;
+    border: solid 1px lightgray;
+    max-width: 20%;
+    margin: 0;
+    padding: 1em;
+}
+
+.card__img {
+    max-width: 100%;
+}
+
+.card__name {
+    font-family: var(--font);
+    font-weight: 600;
+}
+
+.card__footer {
+    display: inline-flex;
+}
+
+.card__footer > * {
+    display: inline;
+    
+}
+
+.card_priceinfo {
+    max-width: 50%;
+}
+
+.card__price {
+    font-family: var(--font);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.card__info {
+    font-family: var(--font);
+    color: var(--green);
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.card__info::before {
+    content: "✓";
+    margin-right: 3px;
+}
+
+.card__cta {
+    font-family: var(--font);
+    font-weight: 600;
+    background-color: var(--green);
+    padding: 20px;
+    max-width: 50%;
+    text-align: center;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+}
+
+.corner {
+    font-family: var(--font);
+    font-weight: 600;
+    color: white;
+    border-top: 1em solid transparent;
+    display: inline-block;
+    padding: 0 1em 1em;
+    position: relative;
+}
+
+.corner1 {
+    background-color: #E31E53;
+}
+
+.corner2 {
+    background-color: #14B1EF;
+    top: 4em;
+    right: 4.7em;
+}
+
+.corner3 {
+    background-color: #E31E53;
+    height: 4em;
+    width: 4em;
+    border-radius: 3em;
+    text-align: center;
+    left: 6em;
+}
+
+.corner3 > small {
+    text-decoration: line-through;
+}
