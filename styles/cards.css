@@ -18,12 +18,21 @@
 }
 
 .card__img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .card__name {
     font-family: var(--font);
     font-weight: 600;
+}
+
+.card__name-cta {
+    text-decoration: none;
+    color: black;
+}
+
+.card__name-cta:hover {
+    text-decoration: underline;
 }
 
 .card__footer {
